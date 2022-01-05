@@ -1,0 +1,164 @@
+
+body{
+  background: url(https://cdn.glitch.com/fd43405a-8dc9-48df-a2f1-e080fbad02ef%2Fsolutions.gif?v=1562858081252) no-repeat;
+  padding: auto;
+  background-size: auto;
+  background-color: #FEF884;
+  margin: 10px;
+}
+h1 {
+  margin: 20px;
+  padding: 50px;
+  text-align:center;
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: black;
+  font-family: "Gill Sans", sans-serif;
+}
+
+p{
+  color:#269E35;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Gill Sans", sans-serif;
+
+}
+
+div.border{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  margin-bottom: 20px;
+}
+/* image gallery*/
+
+#container{
+width: ;
+margin: 0 auto;
+margin-top: 100px;
+
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Bar */
+
+nav{
+    display: flex;
+    background: linear-gradient(90deg, #b2bf43 1.18%, #269E35 100%);
+    border: none;
+    Justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.org-name{
+    font-family: 'The Nautigal', cursive;
+    font-size: 48px;
+    color: white;
+    padding-left: 20px;
+}
+
+.navbar--icon{
+    height: 90px;
+    padding-left: 50px;
+}
+
+nav > p{
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 100px;
+    color: white;
+    letter-spacing: 0.03em;
+}
+
+nav > p > a{
+    text-decoration: none;
+    color: white;
+}
+
+.about{
+    margin-left: auto;
+
+}
+
+.location{
+    margin-right: 200px
+}
+
+
+/* page number*/
+
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
