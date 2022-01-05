@@ -1,5 +1,9 @@
 body{
     margin: 0;
+    font-family: "Gill Sans", sans-serif;
+    background: url(https://cdn.glitch.com/fd43405a-8dc9-48df-a2f1-e080fbad02ef%2Fsolutions.gif?v=1562858081252) no-repeat;
+    background-color: #FEF884;
+
 }
 
 /* Nav Bar */
